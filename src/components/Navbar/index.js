@@ -45,7 +45,7 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarToggleExternalContent">
         <div className={`bg-${themeContext.backgroundColor} p-4`}>
 
-          <h4 className={`text-${themeContext.textColor} h4`}>Settings</h4>
+          <h4 className={`text-${themeContext.textColor} h4`}>Configuracion</h4>
 
           <ToggleSwitch toggleId="dark-mode-toggle" label="Dark mode"
             darkMode={darkModeContext.darkMode} toggle={toggle}
