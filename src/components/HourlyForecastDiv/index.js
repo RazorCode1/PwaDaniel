@@ -21,7 +21,7 @@ const HourlyForecastDiv = props => {
 
   return (
     <div>
-      <h4 className={`text-${themeContext.textColor}`}>Hourly forecast</h4>
+      <h4 className={`text-${themeContext.textColor}`}>Previsión horaria</h4>
       <div className="rounded-lg d-flex flex-nowrap" style={hourlyForecastStyle}>
         {hourArr.map(hour => {
           return (
