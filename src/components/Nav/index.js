@@ -19,7 +19,7 @@ const Nav = () => {
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-      <h1 className={`navbar-brand mb-0 h1 mx-auto text-${themeContext.textColor}`}>Simple Weather</h1>
+      <h1 className={`navbar-brand mb-0 h1 mx-auto text-${themeContext.textColor}`}>PWA Clima Villalobos</h1>
     </nav>
   )
 }
