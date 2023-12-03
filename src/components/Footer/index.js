@@ -10,7 +10,7 @@ const Footer = () => {
       <div>
         <div className={`bg-${themeContext.backgroundColor} p-2`}>
 
-          <small className={`text-${themeContext.textColor}`}>simple weather by phaggio</small>
+          <small className={`text-${themeContext.textColor}`}>PWA Clima por Daniel Villalobos</small>
 
         </div>
       </div>
