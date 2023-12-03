@@ -46,13 +46,13 @@ const CurrentWeatherDiv = props => {
         <div className="col-12">
           <div className="d-flex flex-column flex-sm-row justify-content-around ">
             <p className={`text-center text-md-left text-${themeContext.textColor}`}>
-              Now: {Conversion.unixToLocalTime(props.currentWeather.dt, props.currentWeather.timezone, `h:mm A`)}
+              Ahora: {Conversion.unixToLocalTime(props.currentWeather.dt, props.currentWeather.timezone, `h:mm A`)}
             </p>
             <p className={`text-center text-md-left text-${themeContext.textColor}`}>
-              Sunrise: {Conversion.unixToLocalTime(props.currentWeather.sys.sunrise, props.currentWeather.timezone, `h:mm A`)}
+            Amanecer: {Conversion.unixToLocalTime(props.currentWeather.sys.sunrise, props.currentWeather.timezone, `h:mm A`)}
             </p>
             <p className={`text-center text-md-left text-${themeContext.textColor}`}>
-              Sunset: {Conversion.unixToLocalTime(props.currentWeather.sys.sunset, props.currentWeather.timezone, `h:mm A`)}
+            Puesta de sol: {Conversion.unixToLocalTime(props.currentWeather.sys.sunset, props.currentWeather.timezone, `h:mm A`)}
             </p>
           </div>
         </div>
