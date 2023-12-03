@@ -12,7 +12,7 @@ const RecentCitiesDiv = props => {
 
       <div className={`d-flex flex-column btn-group mt-3`}>
         <div className="d-flex justify-content-between">
-          <label className={`text-${themeContext.textColor}`}>Recent cities</label>
+          <label className={`text-${themeContext.textColor}`}>Ciudades recientes</label>
           <div className={`btn py-0 material-icons text-${themeContext.textColor}`}
             data-toggle="collapse"
             data-target="#recent-cities"
