@@ -7,13 +7,13 @@ const SearchGroup = props => {
   return (
     <div>
       
-      <label className={`text-${themeContext.textColor}`}>Search a city:</label>
+      <label className={`text-${themeContext.textColor}`}>Busca una ciudad:</label>
       <div className="input-group">
         <input defaultValue={props.defaultValue}
           className="form-control"
           type="text"
-          placeholder="city name"
-          aria-label="search city"
+          placeholder="nombre de la ciudad"
+          aria-label="buscar ciudad"
           onChange={event => props.onChange(event.target.value.trim())} // send input value to page
           onKeyDown={event => props.keyPressed(event.keyCode)} // send keyCode to page
         />
