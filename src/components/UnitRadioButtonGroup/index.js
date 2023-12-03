@@ -8,7 +8,7 @@ const UnitRadioButtonGroup = props => {
 
   return (
     <div className="form-group">
-      <label className={`text-${themeContext.textColor}`}>Unit</label>
+      <label className={`text-${themeContext.textColor}`}>Unidad</label>
 
       {
         props.radios ? props.radios.map(radio => {
