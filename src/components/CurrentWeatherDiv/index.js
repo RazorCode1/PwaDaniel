@@ -63,14 +63,14 @@ const CurrentWeatherDiv = props => {
       <div className="row">
         <div className="col-6">
           <div className="d-flex flex-column">
-            <small className={`text-left text-${themeContext.textColor}`}>HUMIDITY</small>
+            <small className={`text-left text-${themeContext.textColor}`}>HUMEDAD</small>
             <div className="d-flex justify-content-end justify-content-sm-center align-items-baseline">
               <div className={`display-4 mr-1 text-${themeContext.textColor}`}>{props.currentWeather.main.humidity}</div>
               <small className={`text-${themeContext.textColor}`}>%</small>
             </div>
           </div>
           <div className="d-flex flex-column">
-            <small className={`text-left text-${themeContext.textColor}`}>WIND</small>
+            <small className={`text-left text-${themeContext.textColor}`}>VIENTO</small>
             <div className="d-flex justify-content-end justify-content-sm-center align-items-baseline">
               <small className={`text-${themeContext.textColor} mr-1`}>
                 {Conversion.convertDirection(props.currentWeather.wind.deg, unitContext.unitType)}
@@ -85,7 +85,7 @@ const CurrentWeatherDiv = props => {
 
         <div className="col-6">
           <div className="d-flex flex-column">
-            <small className={`text-left text-${themeContext.textColor}`}>PRESSURE</small>
+            <small className={`text-left text-${themeContext.textColor}`}>PRESIÓN</small>
             <div className="d-flex justify-content-end justify-content-sm-center align-items-baseline">
               <div className={`display-4 mr-1 text-${themeContext.textColor}`}>
                 {Conversion.convertPressure(props.currentWeather.main.pressure, unitContext.unitType)}
@@ -94,7 +94,7 @@ const CurrentWeatherDiv = props => {
             </div>
           </div>
           <div className="d-flex flex-column">
-            <small className={`text-left text-${themeContext.textColor}`}>FEELS LIKE</small>
+            <small className={`text-left text-${themeContext.textColor}`}>SE SIENTE COMO</small>
             <div className="d-flex justify-content-end justify-content-sm-center align-items-baseline">
               <div className={`display-4 mr-1 text-${themeContext.textColor}`}>
                 {Conversion.returnRoundedTemperature(props.currentWeather.main.feels_like)}
