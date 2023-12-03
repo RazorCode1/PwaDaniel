@@ -17,7 +17,7 @@ const CountryDropdown = props => {
         <select className="custom-select"
           defaultValue={props.selectedCountry}
           onChange={props.onChange}>
-          <option key="default" value="US">Select a country</option>
+          <option key="default" value="US">Seleccione un país</option>
           {countries}
         </select>
       </div>
