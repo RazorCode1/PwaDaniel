@@ -1,0 +1,22 @@
+{
+  "short_name": "PWA CLIMA ",
+  "name": "PWA CLIMA VILLALOBOS",
+  "description": "Una web sencilla que te dara los resultados del clima",
+  "icons": [
+    {
+      "src": "images/simple-weather-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/simple-weather-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "https://phaggio.github.io/weather-pwa/",
+  "display": "standalone",
+  "theme_color": "#37474F",
+  "background_color": "#B0BEC5"
+}
