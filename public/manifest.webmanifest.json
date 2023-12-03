@@ -12,7 +12,8 @@
     {
       "src": "images/simple-weather-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ],
   "start_url": "https://phaggio.github.io/weather-pwa/",
