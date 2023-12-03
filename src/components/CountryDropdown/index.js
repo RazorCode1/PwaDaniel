@@ -21,7 +21,7 @@ const CountryDropdown = props => {
           {countries}
         </select>
       </div>
-      <small className={`ml-1 text-${themeContext.textColor}`}>Default country: US</small>
+      <small className={`ml-1 text-${themeContext.textColor}`}>Pais por defecto: US</small>
     </div>
   )
 }
