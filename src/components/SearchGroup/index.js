@@ -21,7 +21,7 @@ const SearchGroup = props => {
         <div className="input-group-append">
           {props.showSearchButton ?
             <button className="btn btn-primary btn-sm" type="search" onClick={() => props.searchButtonPressed()}>
-              <i className="material-icons">search</i>
+              <i className="material-icons">Buscar</i>
             </button>
             :
             <button className="btn btn-success btn-sm" onClick={() => props.locateMeButtonPressed()}>
